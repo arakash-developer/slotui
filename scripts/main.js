@@ -1,5 +1,5 @@
 // Navbar
-let navbarButton = document.querySelector(".navabar_toggler");
+let navbarButton = document.querySelector(".navbar_toggler");
 let navbarCollapse = document.querySelector(".navbar_collapse");
 let navbarClose = document.querySelector(".navbar_collapse .close");
 let navbarLinks = document.querySelectorAll(".navbar_collapse .nav-link");
@@ -357,8 +357,6 @@ let adjustMent = () => {
 // window eventlistener
 window.addEventListener("resize", adjustMent);
 window.addEventListener("load", adjustMent);
-
-
 
 let prevScrollPos = window.pageYOffset;
 const navbar = document.getElementById("navbar");

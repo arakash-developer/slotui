@@ -98,14 +98,14 @@ html {
   background: #fff;
   /* position: relative; */
 }
-.navbar .container .navabar_toggler {
+.navbar .container .navbar_toggler {
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.6, 0.1, 0.68, 0.53);
 }
-.navbar .container .navabar_toggler img {
+.navbar .container .navbar_toggler img {
   scale: 1.3;
 }
-.navbar .container .navabar_toggler.show {
+.navbar .container .navbar_toggler.show {
   transform: rotate(45deg);
 }
 .navbar .container .navbar_collapse {
