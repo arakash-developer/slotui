@@ -786,6 +786,7 @@ img {
 .footer .container .footer_bottom {
   padding-top: 46px;
   border-top: 1px solid #cbd5e1;
+  gap: 16px;
 }
 .footer .container .footer_bottom .icon {
   border: 1px solid #cbd5e1;
