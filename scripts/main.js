@@ -357,25 +357,3 @@ let adjustMent = () => {
 // window eventlistener
 window.addEventListener("resize", adjustMent);
 window.addEventListener("load", adjustMent);
-
-let prevScrollPos = window.pageYOffset;
-const navbar = document.getElementById("navbar");
-
-// window.onscroll = function () {
-//   // const scrollHeight = window.scrollY;
-//   // console.log("Scroll position: " + scrollHeight + "px");
-
-//   // console.log("Screen height: " + screenHeight + "px");
-//   let height = window.innerHeight;
-
-//   let currentScrollPos = window.pageYOffset;
-//   // console.log("Scroll position: " + currentScrollPos);
-
-//   if (currentScrollPos > height/2) {
-//     // navbar.classList.add('navbar_scroll');
-//     console.log("scroll up 100");
-//   } else {
-//     console.log("scroll ");
-//     // navbar.classList.remove('navbar_scroll');
-//   }
-// };
