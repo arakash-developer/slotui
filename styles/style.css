@@ -759,6 +759,9 @@ img {
 .footer {
   padding: 64px 0px;
 }
+.footer .container .footer_top{
+  gap: 32px;
+}
 .footer .container .item h3 {
   font-family: var(--font-family);
   font-weight: 700;
@@ -767,4 +770,15 @@ img {
   letter-spacing: -0.01em;
   color: #1e293b;
   margin-bottom: 16px;
+}
+.footer .container .item ul{
+  gap: 10px;
+}
+.footer .container .item ul li a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  letter-spacing: -0.01em;
+  color: #475569;
 }
