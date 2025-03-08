@@ -465,7 +465,7 @@ img {
 .testimonial .container .heading > h2 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 122%;
   letter-spacing: -0.01em;
   text-align: center;
@@ -475,7 +475,7 @@ img {
 .testimonial .container .heading > p {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 160%;
   text-align: center;
   color: #475569;
@@ -548,7 +548,7 @@ img {
 .ourOffice .container .heading h2 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 122%;
   letter-spacing: -0.01em;
   color: #1e293b;
@@ -557,7 +557,7 @@ img {
 .ourOffice .container .heading p {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 160%;
   color: #475569;
 }
@@ -624,7 +624,7 @@ img {
   font-family: var(--font-family);
   margin: 24px 0px;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 122%;
   letter-spacing: -0.01em;
   text-align: center;
@@ -633,7 +633,7 @@ img {
 .faq .container .heading > p {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 160%;
   text-align: center;
   color: #475569;
@@ -654,6 +654,7 @@ img {
   line-height: 137%;
   letter-spacing: -0.01em;
   color: #334155;
+  min-width: 243px;
 }
 .faq .faq_inner .item i {
   font-weight: 800;
@@ -692,10 +693,14 @@ img {
   position: relative;
   overflow: hidden;
 }
+.download .container {
+  max-width: 1440px;
+  margin: 0px auto;
+}
 .download .container .left h2 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 122%;
   letter-spacing: -0.01em;
   color: #1e293b;
@@ -704,7 +709,7 @@ img {
   margin: 24px 0 48px;
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 160%;
   color: #475569;
   max-width: 560px;
@@ -752,5 +757,14 @@ img {
 
 /* Footer */
 .footer {
-  padding: 96px 0px;
+  padding: 64px 0px;
+}
+.footer .container .item h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 137%;
+  letter-spacing: -0.01em;
+  color: #1e293b;
+  margin-bottom: 16px;
 }

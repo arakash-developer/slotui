@@ -21,7 +21,7 @@
   .features .container .heading h2 {
     font-size: 36px;
   }
-  .features .container .heading p{
+  .features .container .heading p {
     font-size: 20px;
   }
   .features .container .features_inner h4 {
@@ -32,9 +32,33 @@
   .work_lazy .container .heading > h2 {
     font-size: 36px;
   }
-  .work_lazy .container .heading >  {
+  .work_lazy .container .heading > {
     font-size: 20px;
   }
+  /* end work_lazy */
+  /* testimonial */
+  .testimonial .container .heading > h2 {
+    font-size: 36px;
+  }
+  .testimonial .container .heading > p {
+    font-size: 18px;
+  }
+  /* end testimonial */
+  .ourOffice .container .heading h2 {
+    font-size: 36px;
+  }
+  .ourOffice .container .heading p {
+    font-size: 18px;
+  }
+  /* end ourOffice */
+  /* faq */
+  .faq .container .heading h2 {
+    font-size: 36px;
+  }
+  .faq .container .heading > p {
+    font-size: 18px;
+  }
+  /* end faq */
   /* download */
   .download .container .left {
     position: relative;
@@ -56,6 +80,18 @@
     margin: 0;
     width: 600px;
     height: 777px;
+  }
+  .download .container .left h2 {
+    font-size: 36px;
+    max-width: 310px;
+  }
+  .download .container .left p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .download .container .left h2 {
+    max-width: inherit;
   }
 }
 /* lg */
@@ -130,11 +166,17 @@
   .download {
     padding: 200px 0px;
   }
+
   .download .container .right .img_field {
     width: 725px;
     height: 902px;
   }
   /* end   Download  */
+  /* footer */
+  .footer {
+    padding: 96px 0px;
+  }
+  /* end footer */
 }
 /* xl */
 
@@ -142,7 +184,12 @@
   .testimonial .container .testimonial_inner .review_box {
     width: 384px;
   }
+  .download .container .right .img_field {
+    width: auto;
+    height: auto;
+  }
 }
+
 /* 2xl */
 
 @media screen and (min-width: 1536px) {
