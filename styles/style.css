@@ -759,8 +759,9 @@ img {
 .footer {
   padding: 64px 0px;
 }
-.footer .container .footer_top{
+.footer .container .footer_top {
   gap: 32px;
+  margin-bottom: 42px;
 }
 .footer .container .item h3 {
   font-family: var(--font-family);
@@ -771,7 +772,7 @@ img {
   color: #1e293b;
   margin-bottom: 16px;
 }
-.footer .container .item ul{
+.footer .container .item ul {
   gap: 10px;
 }
 .footer .container .item ul li a {
@@ -781,4 +782,29 @@ img {
   line-height: 137%;
   letter-spacing: -0.01em;
   color: #475569;
+}
+.footer .container .footer_bottom {
+  padding-top: 46px;
+  border-top: 1px solid #cbd5e1;
+}
+.footer .container .footer_bottom .icon {
+  border: 1px solid #cbd5e1;
+  border-radius: 123px;
+  padding: 16px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+.footer .container .footer_bottom .icon i {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.footer .container .footer_bottom p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: -0.01em;
+  color: #94a3b8;
 }
