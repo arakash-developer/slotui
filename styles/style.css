@@ -718,8 +718,12 @@ img {
   border: 1px solid #4f46e5;
   border-radius: 1234px;
   padding: 12px 20px;
+  width: 100%;
+  text-align: center;
 }
 .download .container .left a.get_started {
+  text-align: center;
+  width: 100%;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 16px;
@@ -735,6 +739,7 @@ img {
   right: -180px;
   width: 343px;
   height: 434px;  
+  margin: 0 auto;
 }
 /* End Download */
 

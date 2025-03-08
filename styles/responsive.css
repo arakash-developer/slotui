@@ -5,16 +5,31 @@
   }
   .download .container .right .img_field {
     position: static;
+    width: 580px;
+    height: 671px;  
   }
 }
 
 /* md */
 @media screen and (min-width: 767px) {
+  .download .container .left {
+    position: relative;
+    z-index: 999999;
+  }
+  .download .container .left p {
+    max-width: 410px;
+  }
   .download .container .right {
     margin-top: 0px;
   }
+  .download .container .left a,
+  .download .container .left a.get_started {
+    width: auto;
+    text-align: left;
+  }
   .download .container .right .img_field {
     position: absolute;
+    margin: 0;
   }
   .download .container .right .img_field {
     width: 600px;
