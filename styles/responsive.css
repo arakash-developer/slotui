@@ -100,12 +100,16 @@
     padding: 0px 8px;
   }
   /* navbar */
+  .navbar {
+    position: fixed;
+  }
   .navbar .container {
     flex-wrap: nowrap;
     background: transparent;
     z-index: 999999999;
   }
   .navbar .container .navbar_collapse {
+    height: auto;
     flex-grow: 1;
     align-items: center;
     flex-direction: row;

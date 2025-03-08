@@ -1,9 +1,22 @@
 // Navbar
 let navbarButton = document.querySelector(".navabar_toggler");
 let navbarCollapse = document.querySelector(".navbar_collapse");
+let navbarClose = document.querySelector(".navbar_collapse .close");
+let navbarLinks = document.querySelectorAll(".navbar_collapse .nav-link");
 navbarButton.addEventListener("click", function () {
   navbarCollapse.classList.toggle("showNav");
   navbarButton.classList.toggle("show");
+});
+navbarClose.addEventListener("click", function () {
+  navbarCollapse.classList.remove("showNav");
+  navbarButton.classList.remove("show");
+});
+
+navbarLinks.forEach((item) => {
+  item.addEventListener("click", () => {
+    navbarCollapse.classList.remove("showNav");
+    navbarButton.classList.remove("show");
+  });
 });
 //End Navbar
 
@@ -18,7 +31,6 @@ const whoisforRightImage = document.querySelector(
 AllwhoisforButton.forEach((item) => {
   item.addEventListener("click", () => {
     let data = item.getAttribute("data");
-    console.log(data);
     whoisforRightImage.setAttribute(
       "src",
       `./assets/whoisfor/whoisfor${data ? data : 1}.png`
@@ -40,8 +52,6 @@ window.addEventListener("load", () => {
 });
 AllfaqButton.forEach((item) => {
   item.addEventListener("click", () => {
-    // item.classList.remove("active");
-    console.log("clicked", item);
     item.classList.toggle("active");
   });
 });
@@ -193,7 +203,6 @@ let divideArrayIntoChunks = (arr, size) => {
 // adjustMent function
 let adjustMent = () => {
   if (window.innerWidth <= 1022 && window.innerWidth > 766) {
-    console.log("tablet");
     let reviewsdevide = divideArrayIntoChunks(reviews, 2);
     reviewsdevide.forEach((item) => {
       let div = document.createElement("div");
@@ -273,9 +282,7 @@ let adjustMent = () => {
     });
   } else if (window.innerWidth > 1022) {
     testimonialContainer.innerHTML = "";
-    console.log("large");
     let reviewsdevide = divideArrayIntoChunks(reviews, 3);
-    console.log(reviewsdevide);
 
     reviewsdevide.forEach((item) => {
       let div = document.createElement("div");
@@ -350,3 +357,27 @@ let adjustMent = () => {
 // window eventlistener
 window.addEventListener("resize", adjustMent);
 window.addEventListener("load", adjustMent);
+
+
+
+let prevScrollPos = window.pageYOffset;
+const navbar = document.getElementById("navbar");
+
+// window.onscroll = function () {
+//   // const scrollHeight = window.scrollY;
+//   // console.log("Scroll position: " + scrollHeight + "px");
+
+//   // console.log("Screen height: " + screenHeight + "px");
+//   let height = window.innerHeight;
+
+//   let currentScrollPos = window.pageYOffset;
+//   // console.log("Scroll position: " + currentScrollPos);
+
+//   if (currentScrollPos > height/2) {
+//     // navbar.classList.add('navbar_scroll');
+//     console.log("scroll up 100");
+//   } else {
+//     console.log("scroll ");
+//     // navbar.classList.remove('navbar_scroll');
+//   }
+// };
