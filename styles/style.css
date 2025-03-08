@@ -46,6 +46,7 @@ img {
   line-height: 137%;
   letter-spacing: -0.01em;
   color: #475569;
+  text-transform: capitalize !important;
 }
 .navbar .container .nav_button {
   font-family: var(--font-family);
