@@ -28,6 +28,13 @@
     font-size: 20px;
   }
   /* end features */
+  /* work_lazy */
+  .work_lazy .container .heading > h2 {
+    font-size: 36px;
+  }
+  .work_lazy .container .heading >  {
+    font-size: 20px;
+  }
   /* download */
   .download .container .left {
     position: relative;
