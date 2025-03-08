@@ -125,8 +125,9 @@ let reviews = [
   },
 ];
 
+// loadmore function
 let currentpage = 0;
-let lodemore = (itemperpage = 3) => {
+let loadmore = (itemperpage = 3) => {
   let displayperdata = reviews.slice(currentpage, currentpage + itemperpage);
   displayperdata.forEach((item) => {
     let div = document.createElement("div");
@@ -164,10 +165,11 @@ let lodemore = (itemperpage = 3) => {
   }
 };
 
+// loadless function
 let loadless = () => {
   currentpage = 0;
   testimonialContainer.innerHTML = "";
-  lodemore();
+  loadmore();
   loadmorebtnInner.textContent = "Load More";
 };
 
@@ -175,10 +177,11 @@ loadmorebtn.addEventListener("click", () => {
   if (currentpage >= reviews.length) {
     loadless();
   } else {
-    lodemore();
+    loadmore();
   }
 });
 
+// divideArrayIntoChunks function
 let divideArrayIntoChunks = (arr, size) => {
   result = [];
   for (let i = 0; i < arr.length; i += size) {
@@ -187,6 +190,7 @@ let divideArrayIntoChunks = (arr, size) => {
   return result;
 };
 
+// adjustMent function
 let adjustMent = () => {
   if (window.innerWidth <= 1022 && window.innerWidth > 766) {
     console.log("tablet");
@@ -343,5 +347,6 @@ let adjustMent = () => {
   }
 };
 
+// window eventlistener
 window.addEventListener("resize", adjustMent);
 window.addEventListener("load", adjustMent);
