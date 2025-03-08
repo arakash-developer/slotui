@@ -656,11 +656,31 @@ img {
   letter-spacing: -0.01em;
   color: #334155;
 }
-.faq .faq_inner .item .item_inner i {
-  font-family: var(--font-family);
+.faq .faq_inner .item i {
   font-weight: 800;
   font-size: 16px;
   line-height: 137%;
   letter-spacing: -0.01em;
-  color: #94A3B8;
+  color: #94a3b8;
+  transition: all 0.3s ease;
+}
+.faq .faq_inner .item.active i {
+  transform: rotate(180deg);
+}
+.faq .faq_inner .item p.answer {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #475569;
+  margin-top: 16px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+  height: 0;
+}
+.faq .faq_inner .item.active p.answer {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
 }

@@ -1,5 +1,23 @@
+// Navbar
 let navbarButton = document.querySelector(".navabar_toggler");
 let navbarCollapse = document.querySelector(".navbar_collapse");
+navbarButton.addEventListener("click", function () {
+  navbarCollapse.classList.toggle("showNav");
+  navbarButton.classList.toggle("show");
+});
+//End Navbar
+
+//Faq
+const AllfaqButton = document.querySelectorAll(".faq .faq_inner .item");
+
+AllfaqButton.forEach((item) => {
+  item.addEventListener("click", () => {
+    console.log("clicked",item);
+    item.classList.toggle("active");
+  });
+});
+
+// Testimonial
 const testimonialContainer = document.querySelector(".testimonial_container");
 const loadmorebtn = document.querySelector(".load_more");
 const loadmorebtnInner = document.querySelector(".loadmorebtnInner");
@@ -78,13 +96,7 @@ let reviews = [
   },
 ];
 
-navbarButton.addEventListener("click", function () {
-  navbarCollapse.classList.toggle("showNav");
-  navbarButton.classList.toggle("show");
-});
-
 let currentpage = 0;
-
 let lodemore = (itemperpage = 3) => {
   let displayperdata = reviews.slice(currentpage, currentpage + itemperpage);
   displayperdata.forEach((item) => {
