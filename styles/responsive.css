@@ -187,6 +187,7 @@
   .download .container .right .img_field {
     width: auto;
     height: auto;
+    top: -340px !important;
   }
 }
 

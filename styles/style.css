@@ -690,10 +690,10 @@ img {
 .download {
   padding: 64px 0px;
   background: #eef2ff;
-  position: relative;
   overflow: hidden;
 }
 .download .container {
+  position: relative;
   max-width: 1440px;
   margin: 0px auto;
 }
