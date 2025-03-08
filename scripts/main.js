@@ -9,10 +9,14 @@ navbarButton.addEventListener("click", function () {
 
 //Faq
 const AllfaqButton = document.querySelectorAll(".faq .faq_inner .item");
-
+const faqButton = document.querySelector(".faq .faq_inner .item");
+window.addEventListener("load", () => {
+  faqButton.classList.add("active");
+});
 AllfaqButton.forEach((item) => {
   item.addEventListener("click", () => {
-    console.log("clicked",item);
+    // item.classList.remove("active");
+    console.log("clicked", item);
     item.classList.toggle("active");
   });
 });
