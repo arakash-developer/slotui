@@ -36,6 +36,7 @@
   .container {
     padding: 0px 8px;
   }
+  /* navbar */
   .navbar .container {
     flex-wrap: nowrap;
     background: transparent;
@@ -60,12 +61,20 @@
   .navbar .container .navbar_collapse .nav_button {
     margin-top: 0px;
   }
+  /* end navbar */
+  /* banner */
+  .banner {
+    padding: 96px 0px;
+  }
+  /* end banner */
+  /* work_lazy */
   .work_lazy .container .work_lazy_inner span {
     border-right: 1px solid #cbd5e1;
     height: 100%;
     width: 0;
     display: inline-block;
   }
+  /* end work_lazy */
   /* features */
   .features {
     padding: 96px 0px;
