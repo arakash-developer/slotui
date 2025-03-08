@@ -171,7 +171,7 @@ let loadmore = (itemperpage = 3) => {
   currentpage += itemperpage;
 
   if (currentpage >= reviews.length) {
-    loadmorebtnInner.textContent = "Load Less";
+    loadmorebtnInner.innerHTML = 'Load Less <i class="fa-solid fa-minus"></i>';
   }
 };
 
@@ -180,7 +180,7 @@ let loadless = () => {
   currentpage = 0;
   testimonialContainer.innerHTML = "";
   loadmore();
-  loadmorebtnInner.textContent = "Load More";
+  loadmorebtnInner.innerHTML = 'Load More <i class="fa-solid fa-plus"></i>';
 };
 
 loadmorebtn.addEventListener("click", () => {

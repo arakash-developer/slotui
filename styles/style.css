@@ -1,4 +1,4 @@
-/* set  font */
+/* google  font */
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 /* reset code */
 * {
@@ -125,7 +125,6 @@ html {
   display: flex;
   z-index: 99999999999;
   background: url("../assets/banner/banner.png") no-repeat center center/cover;
-  /* border-right: 1px solid #4f46e5; */
 }
 .navbar .container .navbar_collapse .mobile {
   padding: 10px 20px 40px;
