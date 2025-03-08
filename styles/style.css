@@ -187,11 +187,15 @@ img {
   column-gap: 64px;
   row-gap: 32px;
 }
+.brands .container img {
+  width: 100%;
+  height: auto;
+}
 /* End Brands */
 
 /* features */
 .features {
-  padding: 96px 0px;
+  padding: 64px 0px;
 }
 .features .container {
   text-align: center;
@@ -260,7 +264,7 @@ img {
 
 /* work_lazy */
 .work_lazy {
-  padding: 96px 0px;
+  padding: 64px 0px;
 }
 .work_lazy .container {
   max-width: 800px;
@@ -413,7 +417,7 @@ img {
 
 /* Testimonial */
 .testimonial {
-  padding: 96px 0px;
+  padding: 64px 0px;
 }
 .testimonial .testimonial_grid {
   gap: 32px;
@@ -594,7 +598,7 @@ img {
 
 /* faq */
 .faq {
-  padding: 96px 0px;
+  padding: 64px 0px;
 }
 .faq .container {
   max-width: 800px;
@@ -683,7 +687,7 @@ img {
 
 /* Download  */
 .download {
-  padding: 200px 0px;
+  padding: 64px 0px;
   background: #eef2ff;
   position: relative;
   overflow: hidden;
@@ -734,11 +738,14 @@ img {
   padding: 12px 20px;
   background: #4f46e5;
 }
+.download .container .right {
+  margin-top: 48px;
+}
 .download .container .right .img_field {
   top: -132px;
   right: -180px;
   width: 343px;
-  height: 434px;  
+  height: 434px;
   margin: 0 auto;
 }
 /* End Download */

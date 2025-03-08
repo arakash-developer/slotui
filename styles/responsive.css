@@ -1,12 +1,9 @@
 /* sm */
 @media screen and (min-width: 639px) {
-  .download .container .right {
-    margin-top: 48px;
-  }
   .download .container .right .img_field {
     position: static;
     width: 580px;
-    height: 671px;  
+    height: 671px;
   }
 }
 
@@ -30,8 +27,6 @@
   .download .container .right .img_field {
     position: absolute;
     margin: 0;
-  }
-  .download .container .right .img_field {
     width: 600px;
     height: 777px;
   }
@@ -71,10 +66,36 @@
     width: 0;
     display: inline-block;
   }
+  /* features */
+  .features {
+    padding: 96px 0px;
+  }
+  /* end features */
+  /* work_lazy */
+  .work_lazy {
+    padding: 96px 0px;
+  }
+  /* end work_lazy */
+
+  /* Testimonial */
+  .testimonial {
+    padding: 96px 0px;
+  }
+  /* end Testimonial */
+  /* faq */
+  .faq {
+    padding: 96px 0px;
+  }
+  /* end faq */
+  /* Download  */
+  .download {
+    padding: 200px 0px;
+  }
   .download .container .right .img_field {
     width: 725px;
     height: 902px;
   }
+  /* end   Download  */
 }
 /* xl */
 
