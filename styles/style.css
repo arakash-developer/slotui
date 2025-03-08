@@ -311,11 +311,11 @@ img {
 }
 /* End Work Lazy */
 
-/* procrastinators */
-.procrastinators {
+/* whoisfor */
+.whoisfor {
   padding: 96px 0px;
 }
-.procrastinators .container .heading > h4 {
+.whoisfor .container .heading > h4 {
   border-radius: 1234px;
   padding: 6px 12px;
   background: #eef2ff;
@@ -327,7 +327,7 @@ img {
   color: #4f46e5;
   display: inline-block;
 }
-.procrastinators .container .heading > h2 {
+.whoisfor .container .heading > h2 {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 36px;
@@ -336,7 +336,7 @@ img {
   color: #1e293b;
   margin: 24px 0 16px;
 }
-.procrastinators .container .heading > p {
+.whoisfor .container .heading > p {
   font-family: var(--font-family);
   font-weight: 400;
   max-width: 680px;
@@ -344,49 +344,40 @@ img {
   line-height: 160%;
   color: #475569;
 }
-.procrastinators .container .procrastinators_inner {
+.whoisfor .container .whoisfor_inner {
   margin-top: 64px;
   row-gap: 64px;
 }
-.procrastinators .container .procrastinators_inner .procrastinators_left {
+.whoisfor .container .whoisfor_inner .whoisfor_left {
   height: 100%;
   align-items: start;
 }
-.procrastinators .container .procrastinators_inner .procrastinators_left {
+.whoisfor .container .whoisfor_inner .whoisfor_left {
   gap: 8px;
 }
-.procrastinators
-  .container
-  .procrastinators_inner
-  .procrastinators_left
-  .procrastinators_left_inner {
+.whoisfor .container .whoisfor_inner .whoisfor_left .whoisfor_left_inner {
   height: 100%;
   cursor: pointer;
 }
-.procrastinators
-  .container
-  .procrastinators_inner
-  .procrastinators_left
-  .procrastinators_left_inner
-  .line {
+.whoisfor .container .whoisfor_inner .whoisfor_left .whoisfor_left_inner .line {
   border-left: 5px solid #e0e7ff;
   margin-right: 24px;
   height: 140px;
   border-radius: 1234px;
 }
-.procrastinators
+.whoisfor
   .container
-  .procrastinators_inner
-  .procrastinators_left
-  .procrastinators_left_inner.active
+  .whoisfor_inner
+  .whoisfor_left
+  .whoisfor_left_inner.active
   .line {
   border-color: #4f46e5;
 }
-.procrastinators
+.whoisfor
   .container
-  .procrastinators_inner
-  .procrastinators_left
-  .procrastinators_left_inner
+  .whoisfor_inner
+  .whoisfor_left
+  .whoisfor_left_inner
   .content
   h3 {
   font-family: var(--font-family);
@@ -396,12 +387,7 @@ img {
   letter-spacing: -0.01em;
   color: #475569;
 }
-.procrastinators
-  .container
-  .procrastinators_inner
-  .procrastinators_left_inner
-  .content
-  p {
+.whoisfor .container .whoisfor_inner .whoisfor_left_inner .content p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -410,11 +396,11 @@ img {
   margin-top: 12px;
   max-width: 468px;
 }
-.procrastinators .container .procrastinators_inner .procrastinators_right img {
+.whoisfor .container .whoisfor_inner .whoisfor_right img {
   border-radius: 32px;
   width: 100%;
 }
-/* End procrastinators */
+/* End whoisfor */
 
 /* Testimonial */
 .testimonial {

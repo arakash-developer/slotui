@@ -7,6 +7,31 @@ navbarButton.addEventListener("click", function () {
 });
 //End Navbar
 
+// Who Is For
+
+const AllwhoisforButton = document.querySelectorAll(
+  ".whoisfor .whoisfor_left .whoisfor_left_inner"
+);
+const whoisforRightImage = document.querySelector(
+  ".whoisfor .whoisfor_right img"
+);
+AllwhoisforButton.forEach((item) => {
+  item.addEventListener("click", () => {
+    let data = item.getAttribute("data");
+    console.log(data);
+    whoisforRightImage.setAttribute(
+      "src",
+      `./assets/whoisfor/whoisfor${data ? data : 1}.png`
+    );
+    AllwhoisforButton.forEach((item) => {
+      item.classList.remove("active");
+    });
+    item.classList.add("active");
+  });
+});
+
+// End Who Is For
+
 //Faq
 const AllfaqButton = document.querySelectorAll(".faq .faq_inner .item");
 const faqButton = document.querySelector(".faq .faq_inner .item");
