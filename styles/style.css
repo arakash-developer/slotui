@@ -731,7 +731,14 @@ img {
   background: #4f46e5;
 }
 .download .container .right .img_field {
-  position: absolute;
   top: -132px;
   right: -180px;
+  width: 343px;
+  height: 434px;  
+}
+/* End Download */
+
+/* Footer */
+.footer {
+  padding: 96px 0px;
 }

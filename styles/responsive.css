@@ -1,9 +1,25 @@
 /* sm */
 @media screen and (min-width: 639px) {
+  .download .container .right {
+    margin-top: 48px;
+  }
+  .download .container .right .img_field {
+    position: static;
+  }
 }
 
 /* md */
 @media screen and (min-width: 767px) {
+  .download .container .right {
+    margin-top: 0px;
+  }
+  .download .container .right .img_field {
+    position: absolute;
+  }
+  .download .container .right .img_field {
+    width: 600px;
+    height: 777px;
+  }
 }
 /* lg */
 @media screen and (min-width: 1023px) {
@@ -39,6 +55,10 @@
     height: 100%;
     width: 0;
     display: inline-block;
+  }
+  .download .container .right .img_field {
+    width: 725px;
+    height: 902px;
   }
 }
 /* xl */
