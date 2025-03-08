@@ -129,6 +129,9 @@
   .md-grid-col-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+  .md-grid-col-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
 }
 /* lg */
 @media screen and (min-width: 1023px) {
@@ -173,6 +176,9 @@
   }
   .lg-grid-col-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .lg-grid-col-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
   .lg-flex {
     display: flex;
