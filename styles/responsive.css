@@ -22,7 +22,8 @@
     padding: 0px;
     background: #fff;
     position: static;
-    display: flex;
+    visibility: visible;
+    opacity: 1;
   }
   .navbar .container .navbar_collapse .menu {
     display: flex;
