@@ -9,6 +9,26 @@
 
 /* md */
 @media screen and (min-width: 767px) {
+  /* banner */
+  .banner .container .content h1 {
+    font-size: 50px;
+  }
+  .banner .container .content p {
+    font-size: 18px;
+  }
+  /* end banner */
+  /* features */
+  .features .container .heading h2 {
+    font-size: 36px;
+  }
+  .features .container .heading p{
+    font-size: 20px;
+  }
+  .features .container .features_inner h4 {
+    font-size: 20px;
+  }
+  /* end features */
+  /* download */
   .download .container .left {
     position: relative;
     z-index: 999999;
@@ -65,6 +85,9 @@
   /* banner */
   .banner {
     padding: 96px 0px;
+  }
+  .banner .container .content h1 {
+    font-size: 60px;
   }
   /* end banner */
   /* work_lazy */

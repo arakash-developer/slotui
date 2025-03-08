@@ -157,7 +157,7 @@ img {
 .banner .container .content h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 60px;
+  font-size: 36px;
   line-height: 113%;
   letter-spacing: -0.02em;
   text-align: center;
@@ -168,7 +168,7 @@ img {
 .banner .container .content p {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 160%;
   text-align: center;
   color: #475569;
@@ -216,7 +216,7 @@ img {
 .features .container .heading h2 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 122%;
   letter-spacing: -0.01em;
   text-align: center;
@@ -227,7 +227,7 @@ img {
 .features .container .heading p {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 160%;
   text-align: center;
   color: #475569;
@@ -243,7 +243,7 @@ img {
 .features .container .features_inner h4 {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 140%;
   letter-spacing: -0.01em;
   text-align: center;
